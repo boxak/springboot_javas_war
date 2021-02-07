@@ -77,7 +77,7 @@ public class BoardService {
             if (CollectionUtils.isEmpty(boardList)) {
                 mav.addObject("nullErrorMsg", key + "을(를) 포함하는 검색글이 없습니다.");
             } else {
-                linkStr = "&type=" + searchType + "&key" + key;
+                linkStr = "&type=" + searchType + "&key=" + key;
             }
         }
 

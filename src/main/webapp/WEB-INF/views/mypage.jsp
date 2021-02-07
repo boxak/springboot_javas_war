@@ -132,10 +132,10 @@
 				<div class="row">
           <div class="col-md-3 col-md-pull-9 sidebar ftco-animate">
              <div class="icon d-flex justify-content-center align-items-center">
-             <c:if test="${!empty loginVO}">
-             <span><img width=80px src="/javas/resources/images2/<c:out value="${loginVO.id}" />.png"></span></div>
+             <c:if test="${!empty loginDTO}">
+             <span><img width=80px src="/javas/resources/images2/${loginDTO.id}.png"></span></div>
 				<div class="text" style="text-align : center;">
-			     	<h4><c:out value="${loginVO.name}" />님 <br>환영합니다!</h4>
+			     	<h4><c:out value="${loginDTO.name}" />님 <br>환영합니다!</h4>
 		    </c:if>
 		    </div>
 		    <br>
